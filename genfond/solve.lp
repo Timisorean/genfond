@@ -44,6 +44,7 @@ rank(I, S, delta*M+1) :- state(I, S), not alive(I, S), num_states(I, M).
 :- state(I, S), alive(I, S), not goal(I, S), rank(I, S, N), good_action(I, S, A), N <= N2 : good_trans(I, S, A, S2), rank(I, S2, N2).
 
 #minimize { C@3,F : selected(F), feature_complexity(F, C) }.
+#minimize { 1@2,I,S : bool_repr(I, S) }.
 
 #show good_trans/3.
 #show selected/1.
