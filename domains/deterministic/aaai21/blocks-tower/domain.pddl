@@ -9,6 +9,8 @@
 
 (define (domain fn-blocksworld-tower)
 
+  (:requirements :equality :typing)
+
   (:types place - object
           block - place
   )

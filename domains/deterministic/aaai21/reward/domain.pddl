@@ -20,13 +20,7 @@
         (unblocked ?x1 - cell)
         (picked ?x1 - cell)
         (adjacent ?x1 - cell ?x2 - cell)
-    )
-
-    (:functions
-        
-    )
-
-    
+    )   
 
     
     (:action move

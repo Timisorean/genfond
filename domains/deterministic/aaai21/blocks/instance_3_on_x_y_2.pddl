@@ -3,5 +3,5 @@
 (:domain BLOCKS)
 (:objects A B C)
 (:init (CLEAR A) (ONTABLE b) (ON A C) (ON C B) (HANDEMPTY))
-(:goal (AND (ON A B)))
+(:goal (and (ON A B)))
 )

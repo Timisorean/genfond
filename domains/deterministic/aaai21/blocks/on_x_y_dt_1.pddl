@@ -5,5 +5,5 @@
        (CLEAR H) (ON H G) (ON G F) (ON F E) (ON E D) (ON D A) (on a c) (ONTABLE C)
        (CLEAR N) (ONTABLE N)
 (HANDEMPTY))
-(:goal (AND (ON A B)))
+(:goal (and (ON A B)))
 )

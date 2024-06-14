@@ -13,4 +13,4 @@
     (CLEAR D)
     (CLEAR E)
     (HANDEMPTY))
-(:goal (AND (CLEAR A))))
+(:goal (and (CLEAR A))))

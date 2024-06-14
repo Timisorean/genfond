@@ -4,5 +4,5 @@
 (:init (ON I H) (ON H F) (ON F B) (ONTABLE B)  (CLEAR I)
        (ON C D) (ON D G) (ON G E) (ON E A) (ONTABLE A)  (CLEAR C)
        (HANDEMPTY))
-(:goal (AND (ON A B)))
+(:goal (and (ON A B)))
 )

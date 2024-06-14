@@ -1,6 +1,6 @@
 import logging
 import re
-from .policy import cond_to_str
+from .policy import Cond, cond_to_str
 from frozendict import frozendict
 
 log = logging.getLogger(__name__)

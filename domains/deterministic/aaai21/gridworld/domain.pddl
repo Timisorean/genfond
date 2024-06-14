@@ -5,16 +5,12 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (define (domain gridworld)
-    (:requirements :numeric-fluents)
+    (:requirements :numeric-fluents :typing)
     (:types
         coordinate - int
     )
 
     (:constants
-        
-    )
-
-    (:predicates
         
     )
 

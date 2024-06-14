@@ -1,5 +1,5 @@
 (define (domain logistics-strips)
-  (:requirements :strips) 
+  (:requirements :strips :equality) 
   (:predicates 	(OBJ ?obj)
 	       	(TRUCK ?truck)
                	(LOCATION ?loc)

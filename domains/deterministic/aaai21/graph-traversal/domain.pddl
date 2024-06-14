@@ -5,7 +5,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (define (domain graph-traversal-strips)
-    (:requirements )
+    (:requirements :typing)
+
     (:types
         node - object
     )
@@ -13,10 +14,6 @@
     (:predicates
         (at ?x1 - node)
         (adjacent ?x1 - node ?x2 - node)
-    )
-
-    (:functions
-        
     )
 
     
